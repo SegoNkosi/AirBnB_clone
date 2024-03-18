@@ -15,7 +15,7 @@ from models.user import User
 
 
 class TestUser_instantiation(unittest.TestCase):
-    """Unittests for testing instantiation of the User class."""
+    """The unittests for testing instantiation of the User class."""
 
     def test_no_args_instantiates(self):
         self.assertEqual(User, type(User()))
@@ -91,7 +91,7 @@ class TestUser_instantiation(unittest.TestCase):
 
 
 class TestUser_save(unittest.TestCase):
-    """Unittests for testing save method of the  class."""
+    """These are unittests for testing save method of the  class."""
 
     @classmethod
     def setUp(self):
